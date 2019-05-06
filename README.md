@@ -18,7 +18,7 @@ import (
 )
 
 func main() {
-    // Output: 🐭🐱🐹
+	// Output: 🐭🐱🐹
 	fmt.Println(animalhash.Hash("dog", 23))
 }
 ```
