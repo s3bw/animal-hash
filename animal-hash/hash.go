@@ -17,7 +17,7 @@ func Hash(s string, prime int) string {
 	numberAnimals := len(Animals)
 
 	for i := 0; i < lenS; i++ {
-		index := pow(prime, lenS-(i+1)) * int(s[i]) % numberAnimals
+		index := pow(prime, lenS-(i)) * int(s[i]) % numberAnimals
 		emoji := Animals[index]
 		hashSlice = append(hashSlice, emoji)
 	}
